@@ -10,7 +10,6 @@ def parse(args):
 def area(top_right, bottom_left) -> int: 
     width = abs(top_right[0] - bottom_left[0])
     lenght = abs(top_right[1] - bottom_left[1])
-    print(width * lenght)
     return width * lenght
 
 
