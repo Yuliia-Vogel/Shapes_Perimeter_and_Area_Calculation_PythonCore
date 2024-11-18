@@ -4,17 +4,11 @@ run the script by command:
 python main.py **parameters
 
 where parameters should be in format: 
----
 Square TopRight 1 1 Side 1
----
 or 
----
 Rectangle TopRight 2 2 BottomLeft 1 1
----
 or
----
 Circle Center 1 1 Radius 2
----
 
 New shapes could be easily added just by adding new python-file into folder "shapes".
 No manipulation in core file "main.py" necessary for it.
